@@ -59,12 +59,12 @@
   font-family: 'Roboto', sans-serif;
 }
 .navbtn:hover{
-  color: white;
+  color: #46FF66;
   cursor: pointer;
 }
 
 .note{
-  background-color: #e7f066;
+  background-color: #46FF66;
 	border-radius: 10px;
 	padding: 1rem;
 	min-height: 170px;
@@ -101,20 +101,20 @@
 
 .new{
   background-color: #242424;
-  color: white;
+  color: #46FF66;
 }
 
-textarea{
+.addnew{
   border: none;
   resize: none;
   background-color: #242424;
   width: 100%;
   outline: none;
-  color: white;
+  color: #46FF66;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
 }
-textarea::placeholder{
+.addnew::placeholder{
   color: rgb(105, 105, 105);
 }
 .save{
@@ -122,11 +122,35 @@ textarea::placeholder{
   cursor: pointer;
   border-radius: 12px;
   height: 25px;
+  width: 50px;
   transition: 0.3s;
+  background-color: #46FF66;
 }
 .save:hover{
-  background-color: rgb(255, 245, 103);
+  background-color: #32b147;
 }
 .delete-icon{
   cursor: pointer;
+}
+.search {
+	display: flex;
+	align-items: center;
+	background-color: #242424;
+	border-radius: 10px;
+	margin-bottom: 1.5em;
+  margin: 10px;
+  margin-top: 15px;
+}
+.searchtext{
+  width: 90%;
+  outline: none;
+  border: none;
+  height: 30px;
+  background-color: #242424;
+  border-radius: 10px;
+  color: #46FF66;
+  font-size: 15px;
+}
+.search-icon{
+  color: #46FF66;
 }

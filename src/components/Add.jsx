@@ -20,9 +20,9 @@ function Add({ addhandler }) {
     }
     return (
         <div className = 'note new'>
-            <textarea id="" cols="10" rows="8" onChange = {changehandler} value ={noteText} />
+            <textarea className="addnew" cols="10" rows="8" onChange = {changehandler} value ={noteText} />
             <div className="footer">
-                <small>{characterLimit - noteText.length} characters remaining</small>
+                <small>{characterLimit - noteText.length} characters left.</small>
                 <button className="save" onClick = {saveclick}>Save</button>
             </div>
         </div>

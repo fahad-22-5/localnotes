@@ -1,7 +1,6 @@
 import React from 'react';
 import Note from './Note';
 import Add from './Add';
-
 function Home( {notes, addhandler, deletenote} ) {
     return (
         <div className = 'notes-list'>
